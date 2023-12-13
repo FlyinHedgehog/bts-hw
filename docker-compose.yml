@@ -1,0 +1,7 @@
+
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: netflix_cassandra_db
+    ports:
+      -"9042:9042"
